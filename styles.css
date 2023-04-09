@@ -1,0 +1,195 @@
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #666;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  #welcome{
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+  }
+  
+  header {
+    background-color: #f7cda9;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 101px;
+    width: 101px;
+    margin-right: 5px;
+  }
+  
+  table{
+    width: 100%;
+  }
+
+  td{
+    text-align: center;
+  }
+
+  #bakery1{
+    height: 408px;
+    width: 612px;
+  }
+
+  nav {
+    margin-left: auto;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+  }
+  
+  main {
+    padding: 40px 0;
+  }
+  
+  section {
+    padding: 40px 0;
+  }
+  
+  .section-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .section-header h2 {
+    font-size: 3rem;
+    margin: 0;
+    color: #f7cda9;
+  }
+  
+  .section-header p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .product {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product-item {
+    width: calc(100% / 3 - 20px);
+    margin: 0 10px 20px 10px;
+    border: 1px solid #eee;
+    padding: 20px;
+    box-shadow: 2px 2px 5px #ccc;
+  }
+  
+  .product-item h3 {
+    margin-top: 0;
+    font-size: 2rem;
+    color: #f7cda9;
+  }
+  
+  .product-item p {
+    margin-top: 0;
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  footer {
+    background-color: #f7cda9;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .footer-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-nav li {
+    margin-left: 20px;
+  }
+  
+  .footer-nav a {
+    color: #fff;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+  
+  label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    max-width: 300px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 300px;
+  }
+
+  input[type="submit"] {
+    background-color: rgb(241, 177, 57);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: rgb(236, 153, 0);
+  }
+  
